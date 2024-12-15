@@ -12,4 +12,4 @@ c = int(input("uchinchi sonni kiriting: c="))
 if a>b>c:
     print(a, c)6
 
-    fgf
+    
