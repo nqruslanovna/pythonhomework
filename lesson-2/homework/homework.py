@@ -134,3 +134,53 @@
 #     print('x+y>50')
 # else:
 #     print("x+y<50")
+
+
+#20
+# word = input("matn kiriting: ")
+# print("matndagi oxirgi harf:", word[-1])
+# print("matndagi birinchi harf:", word[0])
+
+#21 foydalanuvchidan matn so'raymiz va bo'shliqlarni olib tashlaymiz
+# matn = input("matn kiriting: ")
+# print(matn.strip())
+
+#22 .Foydalanuvchidan jumla so'rang va har bir so'zning birinchi harflaridan qisqartma yarating.
+# jumla = input(" 3 ta so'zdan iborat Jumlangizni kiriting:")
+# sozsoni = jumla.split()
+# a = sozsoni[0]
+# b = sozsoni[1]
+# c = sozsoni[2]
+# print(a[0].upper(),b[0].upper(),c[0].upper())
+
+
+#23 Foydalanuvchidan satr va belgini so'raydigan, so'ngra ushbu belgining barcha holatlarini satrdan olib tashlaydigan dastur yozing.
+# matn = input("matnni kiriting: ")
+# belgi = input("kiritgan matningizdan qaysi belgi olib tashlansin: ")
+# print(matn.split(belgi))
+
+#24 Foydalanuvchidan satr so'rang va barcha unlilarni belgi bilan almashtiring (masalan, *). 
+# satr = input("satrni kiriting: ")
+
+#25 Satrning bir so‘z bilan boshlanib, boshqa so‘z bilan tugashini tekshiradigan dastur tuzing.
+# satr = input("satr kiriting: ")
+# toplam = satr.split()
+# print(" satringiz ",toplam[0],"bilan boshlanib,",toplam[-1],"bilan tugaydi")
+
+#26  Foydalanuvchi nomi va parolni qabul qiladigan va ikkalasi ham bo'sh emasligini tekshiradigan dastur yozing.  
+# nom = input("foydalanuvchi nomini kiriting: ")
+# parol = input("parolni kiriting: ")
+# if not bool(nom.strip() and parol.strip()):
+#     print("qayta urinib koring!")
+# else:
+#     print("siz royxatdan otdingiz!")
+
+#27 Ikki qatorni qabul qiluvchi va ularning uzunligi bir xil yoki yo'qligini tekshiradigan dastur tuzing.
+# qator1 = input("1-qator sozlarini kiriting: ")
+# qator2 = input("2-qator sozlarini kiriting: ")
+# a = len(qator1)
+# b = len(qator2)
+# if a==b:
+#     print("ikkala qatordagi belgilar soni teng")
+# else:
+#     print("ikkala qatordagi belgilar soni teng emas")
