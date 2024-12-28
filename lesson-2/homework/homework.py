@@ -162,6 +162,8 @@
 #24 Foydalanuvchidan satr so'rang va barcha unlilarni belgi bilan almashtiring (masalan, *). 
 # satr = input("satrni kiriting: ")
 
+
+
 #25 Satrning bir so‘z bilan boshlanib, boshqa so‘z bilan tugashini tekshiradigan dastur tuzing.
 # satr = input("satr kiriting: ")
 # toplam = satr.split()
